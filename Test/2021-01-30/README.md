@@ -1,14 +1,15 @@
 # Test 30.01.2021
 
-# Zadatak 1
+# [Zadatak 1](https://github.com/Siocic/Programiranje-I/blob/main/Test/2021-01-30/Zadatak%201.cpp)
 
 Napisati program koji korisniku omogućava unos realnog broja x i odabir funkcije za proračun datog izraza. Korisnik bira funkciju unosom sljedećih karaktera 's' (sin), 'c' (cos). U slučaju da korisnik unese karakter koji ne odgovara niti jednoj od predefinisanih vrijednosti ispisati odgovarajuću poruku i ponoviti odabir.
 
 Za odabranu funkciju sin izraz je:
 
+![x](https://user-images.githubusercontent.com/77838860/112757221-1789f080-8fe9-11eb-92f3-a572fa159d9d.PNG)
 
 
-# Zadatak 02
+# [Zadatak 02](https://github.com/Siocic/Programiranje-I/blob/main/Test/2021-01-30/Zadatak%202.cpp)
 
 Napisati program koji simulira bacanje 3 kockice (jedna kockica ima 6 strana i na tim stranama su brojevi 1 - 6). Simuliranje bacanja svake kockice ostvariti funkcijom rand() % 6 + 1. Simulirati konstantno bacanje sve tri kockice dok se u dva uzastopna bacanja ne desi da se dobiju isti brojevi na sve tri kockice (npr. u šestom bacanju se dobiju brojevi 2, 2, 2 a u sedmom 4,4,4 na sve tri kockice). Ispisati koliko je ukupno bilo bacanja dok se nije ispunio navedeni uslov. Nije potrebno tražiti bilo kakav unos od korisnika.
 
