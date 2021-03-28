@@ -1,0 +1,14 @@
+# TEST 20.02.2021
+
+# Zadatak 1
+
+Postujuci sve faze procesa programiranja, napisati proram koji korisniku omogucava unos cijelog broja N, te izracunava vrijednost sume faktorijela prostih brojeva u intervalu [1, N].
+
+# Zadatak 2
+Napisati program koji ce omoguciti korisniku unos broj n (uz uslov 10<=n<=1000). Zatim simulirati unos n slucajnih vrijednosti. Simuliranje unosa ostvariti funkcijom rand()%1000+1. Izracunati statisticke podatke u kojem procentu se od n generisanih slucajnih vrijednosti pojavljuje savrsen broj. Za neki broj se kaze da je savrsen ukoliko je jednak sumi svih svojih djelilaca (ne ukljucujici njega samog). Na primjer, 28 je savrsen broj: njegovi djelioci su 1, 2, 4, 7 i 14, a 1 + 2 + 4 + 7 + 14 = 28. Jedini savrseni brojevi u opsegu od 1 do 100 su brojevi 6 i 28.
+
+# Zadatak 3
+Napisati program koji ce omoguciti korisniku da unese velicinu jednodimenzionalnog dinamickog niza integer vrijednosti. Napisati rekuzivnu funkciju koja ce taj niz puniti serijom brojeva 2, 4, 8, 16, 32, 64, 128, 256, 512 itd., tako da je svaki slijedeci broj jednak prethodnom pomnozenom sa 2, pocevsi od broja 2. Rekurzija se prekida kad se popuni cijeli niz ili kad se desi overflow na integer varijabli. U ovom zadatku je zabranjeno indeksirati elemente niza u uglastim zagradama. Obavezno koristiti aritemtiku pokazivaca.
+
+# Zadatak 4
+Kreirati dinamicki niz ciji su elementi objekta tipa fudbaler (fudbaler je struktura cija su obiljeza data u nastavku). Omoguciti korisniku da unese dimenzije niza te omoguciti unos elemenata. Redovi predstavljaju razlicite klubove, a kolone razlicite fudabalere. Radi jednostavnosti rjesenja, pretpostaviti da svaki klub ima isti broj fudbalera. Ovisno o unesenoj poziciji (N, O ili V) identificira se da li je dati fudaler napadac, odbrambeni ili vezni igrac. U razlicitim klubovima mogu igrati razliciti brojevi napadaca, veznih igraca ili odbrambenih igraca. (Npr. klub 1 moze imati 10 veznih, 3 napadaca i 5 odbrambenih igraca, dok klub 2 moze imati 12 veznih igraca, 2 napadaca i 6 odbrambenih igraca i sl.). Izracunati i ispisati broj golova po poziciji igraca za sve klubove. Zatim omoguciti korisniku izbor jendog tipa fudbalera (N, O ili V) i prema korisnickom izbrou pronaci klub koji ima najbolji prosjek postignutih zgoditaka top tipa igraca (npr. ako se inese slovo V za klub 1 racuna se prosjek za 10 veznih igraca dok se za klub 2 racuna prosjek 12 veznih igraca i ti prosjeci se porede). U ovom zadatku je zabranjeno indeksirati elemenete niza u uglastim zagradama. Obavezno koristiti aritmetiku pokazivaca. Obavezno voditi racuna o dealociranju dinamicki alociranje memorije.
