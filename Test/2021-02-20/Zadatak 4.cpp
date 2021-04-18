@@ -149,7 +149,7 @@ void brojGolovaPoPozicijiIgraca(fudbaler** igrac, int brKlubova, int brFudbalera
 	{
 		sumaOdbrana /= brojacOdbrana;
 	}
-	if (brojacOdbrana>0)
+	if (brojacVezni>0)
 	{
 		sumaVezni /= brojacVezni;
 	}
