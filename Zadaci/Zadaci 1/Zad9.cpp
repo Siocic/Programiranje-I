@@ -1,6 +1,4 @@
-﻿/*
-Poštujući sve faze programiranja napisati program koji omogućava unos prirodnog broja n preko tastature te izračunava sumu:
-*/
+
 #include<iostream>
 using namespace std;
 float suma(int);
