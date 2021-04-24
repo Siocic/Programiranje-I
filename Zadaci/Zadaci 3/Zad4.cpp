@@ -2,8 +2,6 @@
 using namespace std;
 
 
-
-
 void Rekurzija(int* niz, int brojac, int n, int faktorijel);
 void Ispis(int* niz, int brojac, int n);
 
