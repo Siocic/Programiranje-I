@@ -1,9 +1,4 @@
-﻿/*
-Napisati program koji korisniku omogućava unos realnog broja x, cijelog broja m i odabir funkcije za proračun datog izraza.
-Korisnik bira funkciju unosom sljedećih karaktera 's' (sin), 'c' (cos), 'q' (sqrt), 'p' (pow).
-U slučaju da korisnik unese karakter koji ne odgovara niti jednoj od predefinisanih vrijednosti ispisati odgovarajuću poruku i ponoviti odabir.
-Funkciji pow postavite broj 2 za drugi parametar.
-*/
+
 #include<iostream>
 using namespace std;
 
