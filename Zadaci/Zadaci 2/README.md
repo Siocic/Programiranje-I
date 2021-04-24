@@ -54,6 +54,7 @@ Napisati program koji korisniku omogućava unos realnog broja x, cijelog broja m
 Korisnik bira funkciju unosom sljedećih karaktera 's' (sin), 'c' (cos), 'q' (sqrt), 'p' (pow). 
 U slučaju da korisnik unese karakter koji ne odgovara niti jednoj od predefinisanih vrijednosti ispisati odgovarajuću poruku i ponoviti odabir.Za funkciju pow() drugi parametar treba biti 3.
 Za odabranu funkciju izraz je:
+
 ![68747470733a2f2f692e706f7374696d672e63632f6b675667576e39622f53637265656e73686f742d312e706e67](https://user-images.githubusercontent.com/77838860/115952653-8cb4ec80-a4e7-11eb-99c1-33fbb0bb4055.png)
 
 Broj faktora u izrazu odgovara unesenom broju m. U rješenju obavezno iskoristiti switch iskaz.
