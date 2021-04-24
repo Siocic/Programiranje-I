@@ -1,14 +1,8 @@
 ﻿#include<iostream>
 using namespace std;
 
-/*
-Napisati program koji će omogućiti korisniku da unese veličinu jednodimenzionalnog dinamičkog niza integer vrijednosti.
-Napisati rekurzivnu funkciju koja će taj niz popuniti faktorijelom rednog broja člana niza (1!, 2!, 3!, 4!...).
-Rekurzija se prekida kada se popuni cijeli niz ili kada se desi overflow na integer varijabli. U ovom zadatku je
-zabranjeno indeksirati elemente niza uglastim zagradama.
 
-(Obavezno koristiti aritmetiku pokazivača. Obavezno sve riješiti jednom rekurzivnom funkcijom.)
-*/
+
 
 void Rekurzija(int* niz, int brojac, int n, int faktorijel);
 void Ispis(int* niz, int brojac, int n);
@@ -41,7 +35,7 @@ void Rekurzija(int* niz, int brojac, int n, int faktorijel)
 	if (brojac == n || faktorijel < 0)
 		return;
 	*(niz + brojac) = faktorijel;
-	faktorijel *= brojac + 2; // Otkud brojac +2 
+	faktorijel *= brojac + 2; 
 	Rekurzija(niz, brojac + 1, n, faktorijel);
 }
 
