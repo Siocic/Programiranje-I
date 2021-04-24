@@ -1,8 +1,4 @@
-﻿/*
-Napisati program koji će omogućiti unos prirodnog broja A (A > 100000), te kreirati i ispisati broj B koji će se sastojati od cifara broja A u obrnutom redoslijedu gdje je svaka parna cifra uklonjena.
-Npr. ako se unese 45362792, funkcija treba vratiti 9735. Ispisati razliku brojava A i B
-(Obavezno koristiti bar jednu korisnički definisanu funkciju)
-*/
+
 #include<iostream>
 using namespace std;
 
