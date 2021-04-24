@@ -1,8 +1,4 @@
-﻿/*
-Poštujući sve faze procesa programiranja, napisati program koji učitava prirodni broj n veći od 10 i prirodan broj X. 
-Program treba izračunati i ispisati vrijednost S izračunatu prema.
-S=3!-6!+9!-...+(-1)*n+1*(3n)!
-*/
+
 #include <iostream>
 #include <cmath>
 
