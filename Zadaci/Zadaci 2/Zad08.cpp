@@ -1,8 +1,4 @@
-﻿/*
-Napisati program koji izračunava ukupan zbir faktorijela od svih prostih brojeva koji su članovi prvih 100 elemenata Fibonacci niza (tzv. fibonacci prime).
-Napomena: Pazljivo pročitajte zadatak. Obavezno voditi računa da se uradi tačno ono što je trazeno u zadatku i da zadatak bude logicki ispravan.
-Obavezno koristiti bar jednu funkciju kojoj ćete proslijediti parametar po referenci.
-*/
+
 #include<iostream>
 using namespace std;
 
