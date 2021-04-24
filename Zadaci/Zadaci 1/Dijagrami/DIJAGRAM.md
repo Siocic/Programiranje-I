@@ -1,9 +1,0 @@
-
-
-Prikaz dijagrama 
-
-
-
-
-
-
