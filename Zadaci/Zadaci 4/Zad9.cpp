@@ -1,16 +1,4 @@
-/*
-Kreirati dinamicki niz ciji su elementi objekta tipa fudbaler (fudbaler je struktura cija su obiljeza data u nastavku).
-Omoguciti korisniku da unese dimenzije niza te omoguciti unos elemenata.
-Redovi predstavljaju razlicite klubove, a kolone razlicite fudabalere.
-Radi jednostavnosti rjesenja, pretpostaviti da svaki klub ima isti broj fudbalera.
-Ovisno o unesenoj poziciji (N, O ili V) identificira se da li je dati fudaler napadac, odbrambeni ili vezni igrac. U razlicitim klubovima mogu igrati razliciti brojevi napadaca, veznih igraca ili odbrambenih igraca. 
-(Npr. klub 1 moze imati 10 veznih, 3 napadaca i 5 odbrambenih igraca, dok klub 2 moze imati 12 veznih igraca, 2 napadaca i 6 odbrambenih igraca i sl.).
-Izracunati i ispisati broj golova po poziciji igraca za sve klubove.
-Zatim omoguciti korisniku izbor jendog tipa fudbalera (N, O ili V) i prema korisnickom izbrou pronaci klub koji ima najbolji prosjek postignutih zgoditaka top tipa igraca
-(npr. ako se inese slovo V za klub 1 racuna se prosjek za 10 veznih igraca dok se za klub 2 racuna prosjek 12 veznih igraca i ti prosjeci se porede).
-U ovom zadatku je zabranjeno indeksirati elemenete niza u uglastim zagradama. Obavezno koristiti aritmetiku pokazivaca. 
-Obavezno voditi racuna o dealociranju dinamicki alociranje memorije.
-*/
+
 #include<iostream>
 using namespace std;
 struct fudbaler
