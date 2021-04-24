@@ -1,7 +1,4 @@
-﻿/*
-Napisati program koji omogućava unos pozitivnog broja n te pronalazi njegove parne cifre i formira novi broj u kojem su parne cifre zamijenjene cifrom '5'.
-Dodatno program treba ispisati razliku unesenog i broja koji se dobije nakon zamjene.
-*/
+
 #include<iostream>
 using namespace std;
 
