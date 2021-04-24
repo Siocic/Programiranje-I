@@ -1,0 +1,1 @@
+# Postavke za trece zadatke
