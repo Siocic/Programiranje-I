@@ -61,3 +61,5 @@ Poštujući sve faze programiranja napisati program koji omogućava unos prirodn
 # [Zadatak 10](https://github.com/Siocic/Programiranje-I/blob/main/Zadaci/Zadaci%201/10.cpp)
 Napisati program koji učitava prirodan broj n. 
 Program treba ispisati najmanji prirodan broj m, veći ili jednak n, koji je potencija nekog prirodnog broja, tj. m = k ^ l, gdje su k i l prirodni brojevi >= 2.
+
+# [Dijagrami](https://github.com/Siocic/Programiranje-I/tree/main/Zadaci/Zadaci%201/Dijagrami)
