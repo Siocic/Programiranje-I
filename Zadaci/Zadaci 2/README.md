@@ -1,0 +1,1 @@
+# Postavke za druge zadatke
