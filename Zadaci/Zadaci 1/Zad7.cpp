@@ -1,6 +1,4 @@
-/*
-Postujuci sve faze procesa programiranja, napisati proram koji korisniku omogucava unos cijelog broja N, te izracunava vrijednost sume faktorijela prostih brojeva u intervalu [1, N].
-*/
+
 #include <iostream>
 
 using namespace std;
