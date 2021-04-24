@@ -1,8 +1,4 @@
-﻿/*
-Napisati program koji omogućava korisniku unos integer vrijednosti veće od 100.
-Napisati funckiju koja će provjeriti da li je uneseni broj u isto vrijeme i prost i "palindrom", odnosno da li je isti broj i kada se obrnnu sve cifre.
-Po potrebi koristiti dodatne funkcije. Npr. brojevi 383, 727, 757, 787, 797, 919, 929 su u isto vrijeme i prosti brojevi i "palindromi".
-*/
+
 #include<iostream>
 #include<cmath>
 using namespace std;
