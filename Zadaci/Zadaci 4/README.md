@@ -1,6 +1,6 @@
 # Postavke za cetvrte zadatke
 
-# [Zadatak 1]
+# [Zadatak 1](https://github.com/Siocic/Programiranje-I/blob/main/Zadaci/Zadaci%204/Zad1.cpp)
 Kreirati dinamički dvodimenzionalni niz čiji su elementi objekti tipa fudbaler(fudbaler je struktura čija su obilježja data u nastavku).Omogućiti korisniku da unese dimenzije niza.
 ```
 struct fudbaler
@@ -20,7 +20,7 @@ brojIgraca : rand() % 30 + 1
 golovi : rand() % 5
 (U ovom zadatku je zabranjeno indexirati elemente niza uglastim zagradama.Obavezno koristiti aritmetiku pokazivača.)
 
-# [Zadatak 2]
+# [Zadatak 2](https://github.com/Siocic/Programiranje-I/blob/main/Zadaci/Zadaci%204/Zad2.cpp)
 Kreirati dinamički dvodimenzionalni niz čiji su elementi objekti tipa vozilo (vozilo je struktura čija su obilježja data u nastavku). Omogućiti korisniku da unese dimenzije niza.
 ```
 struct vozilo
@@ -41,7 +41,7 @@ Zatim napisati i testirati funkciju koja će pronaći i ispisati porosječnu kub
 
 (U ovom zadatku je zabranjeno indexirati elemente niza uglastim zagradama. Obavezno koristiti aritmetiku pokazivača.)
 
-# [Zadatak 3]
+# [Zadatak 3](https://github.com/Siocic/Programiranje-I/blob/main/Zadaci/Zadaci%204/Zad3.cpp)
 Kreirati dinamički dvodimenzionalni niz čiji su elementi objekti tipa vozilo (vozilo je struktura čija su obilježja data u nastavku). Omogućiti korisniku da unese dimenzije niza.
 ```
 struct vozilo
@@ -58,7 +58,7 @@ Naći i ispisati prosjek potrošnje goriva po km u vozilima tipa C u cijeloj mat
 
 (U ovom zadatku je zabranjeno indexirati elemente niza uglastim zagradama. Obavezno koristiti aritmetiku pokazivača.)
 
-# [Zadatak 4]
+# [Zadatak 4](https://github.com/Siocic/Programiranje-I/blob/main/Zadaci/Zadaci%204/Zad4.cpp)
 Kreirati dinamički dvodimenzionalni niz čiji su elementi objekti tipa vremenska_prognoza (prognoza je struktura čija su obilježja data u nastavku). Omogućiti korisniku da unese dimenzije niza.
 ```
 struct vremenska_prognoza
@@ -74,7 +74,7 @@ Zatim napraviti funkciju koja će pronaći i ispisati index meteorologa čija je
 odnosno koji je imao najmanju grešku u procjeni temperatura. Pomoć: suma svih razlika između prognozirane i stvarne temperature za jednog meteorologa predstavlja njegovu ukupnu grešku.
 (U ovom zadatku je zabranjeno indeksirati elemente u niza uglastim zagradama. Obavezno koristiti aritmetiku pokazivača.)
 
-# [Zadatak 5]
+# [Zadatak 5](https://github.com/Siocic/Programiranje-I/blob/main/Zadaci/Zadaci%204/Zad5.cpp)
 Kreirati dinamički dvodimenzionalni niz čiji su elementi objekti tipa košarkaš (košarkaš je struktura čija su obilježja data u nastavku). Omogućiti korisniku da unese dimenzije niza.
 ```
 struct kosarkas
@@ -89,7 +89,7 @@ te napraviti funkciju koja će pronaći najuspješniji klub (klub u kojem je pos
 Također je potrebno pronači najuspješnijeg košarkaša u tom timu (ne mora biti najuspješniji u ligi) i najlošijeg košarkaša u kompletnoj ligi te izračunati razliku u broju postignutih koševa ta dva košarkaša.
 (Funkcija treba vratiti pokazivač na memorijsku lokaciju u kojoj je upisana ta razlika.)
 
-# [Zadatak 6]
+# [Zadatak 6](https://github.com/Siocic/Programiranje-I/blob/main/Zadaci/Zadaci%204/Zad6.cpp)
 Kreirati dvodimenzionalni dinamički niz čiji su elementi objekti tipa figura (figura je struktura čija su obilježja data u nastavku). Omogućiti korisniku da unese dimenzije niza, te omogućiti unos elemenata.
 ```
 struct figura
@@ -103,7 +103,7 @@ Potrebno je napisati funkciju koja će računati prosječnu visinu svih figura k
 
 (Funkcija treba vratiti pokazivač na memorijsku lokaciju u kojoj je upisana ta vrijednost.)
 
-# [Zadatak 7]
+# [Zadatak 7](https://github.com/Siocic/Programiranje-I/blob/main/Zadaci/Zadaci%204/Zad7.cpp)
 Kreirati dinamički dvodimenzionalni niz čiji su elementi objekti tipa uposlenik (uposlenik je struktura čija su obilježja data). Omogućiti korisniku da unese dimenzije niza.
 ```
 struct uposlenik
@@ -117,7 +117,7 @@ Redovi dvodimenzionalnog niza predstavljaju različite odjele firme u kojima rad
 
 Omogućiti korisniku unos svih podataka za sve radnike, te napraviti funkciju koja će naći najveći prosjek plate po odjelima firme te ispisati koji je to redni broj odjela (indeks reda sa najvećim prosjekom) i koji je najveći prosjek plate.
 
-# [Zadatak 8]
+# [Zadatak 8](https://github.com/Siocic/Programiranje-I/blob/main/Zadaci/Zadaci%204/Zad8.cpp)
 Kreirati dinamički dvodimenzionalni niz čiji su elementi objekti tipa student (student je struktura čija su obilježja data u nastavku). Omogućiti korisniku da unese dimenzije niza.
 ```
 struct student
@@ -132,7 +132,7 @@ Omogućiti korisniku unos svih podataka za sve studente, te napraviti funkciju k
 Zatim pronaći i ispisati ID studenta koji ima najveći prosjek na cijelom univerzitetu.
 (U ovom zadatku je zabranjeno indexirati elemente niza uglastim zagradama. Obavezno koristiti aritmetiku pokazivača. Obavezno voditi računa o dealociranju dinamički alocirane memorije.)
 
-# [Zadatak 9]
+# [Zadatak 9](https://github.com/Siocic/Programiranje-I/blob/main/Zadaci/Zadaci%204/Zad9.cpp)
 Kreirati dinamicki niz ciji su elementi objekta tipa fudbaler (fudbaler je struktura cija su obiljeza data u nastavku).
 Omoguciti korisniku da unese dimenzije niza te omoguciti unos elemenata.
 Redovi predstavljaju razlicite klubove, a kolone razlicite fudabalere.
