@@ -31,7 +31,7 @@ char odabir()
 }
 float proracun(int x)
 {
-	float rezulutat = 1;
+	float rezulutat = 0;
 
 	if (odabir()=='s')
 	{
