@@ -37,7 +37,7 @@ float proracun(int x)
 	{
 		for (int i = 1; i < x; i++)
 		{
-			rezulutat *= i / (sin(x/ i)+x);
+			rezulutat += i / (sin(x/ i)+x);
 		}
 		return rezulutat;
 	}
@@ -45,7 +45,7 @@ float proracun(int x)
 	{
 		for (int i = 1; i < x; i++)
 		{
-			rezulutat *= i / (cos(x / i) + x);
+			rezulutat += i / (cos(x / i) + x);
 		}
 		return rezulutat;
 	}
