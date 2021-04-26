@@ -41,7 +41,7 @@ float rezultat(float x, int m)
 		{
 			for (int i = 1; i <= m; i++)
 			{
-				rez *= (sin(x) + i);
+				rez += (sin(x) + i);
 			}
 			return rez;
 		}
@@ -50,7 +50,7 @@ float rezultat(float x, int m)
 		{
 			for (int i = 1; i <= m; i++)
 			{
-				rez *= (cos(x) + i);
+				rez += (cos(x) + i);
 			}
 			return rez;
 		}
@@ -59,7 +59,7 @@ float rezultat(float x, int m)
 		{
 			for (int i = 1; i <= m; i++)
 			{
-				rez *= (sqrt(x) + i);
+				rez += (sqrt(x) + i);
 			}
 			return rez;
 		}
@@ -68,7 +68,7 @@ float rezultat(float x, int m)
 		{
 			for (int i = 1; i <= m; i++)
 			{
-				rez *= (pow(x, 3) + i);
+				rez += (pow(x, 3) + i);
 			}
 			return rez;
 		}
