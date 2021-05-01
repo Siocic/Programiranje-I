@@ -113,7 +113,7 @@ void timSaNajvecimProsjekom(fudbaler** f, int brTimova, int brIgraca)
 
     int indexTeam = 0;
 
-    for (int i = 0; i < brIgraca; i++)
+    for (int i = 0; i < brTimova; i++)
     {
         if (*(bestTeam+i)>*(bestTeam+indexTeam))
         {
