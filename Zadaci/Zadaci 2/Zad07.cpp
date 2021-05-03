@@ -14,7 +14,7 @@ int main()
 		cout << "Unesite n: ";
 		cin >> n;
 
-	} while (n <= 10 || n >= 1000);
+	} while (n >= 10 || n >= 1000);
 
 	cout << "Procenat prostih brojeva je " << procenatBrojeva(n) << " % " << endl;
 
