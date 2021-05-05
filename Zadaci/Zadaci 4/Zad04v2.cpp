@@ -1,19 +1,4 @@
-﻿/*
- Kreirati dinamički dvodimenzionalni niz čiji su elementi objekti tipa vremenska_prognoza (prognoza je struktura čija su obilježja data u nastavku). Omogućiti korisniku da unese dimenzije niza.
 
-struct vremenska_prognoza
-{
-    char *padavine; //dozvoliti unos rijeci npr. "kisa" ili "snijeg"
-    float *temperatura;
-    float *vlaznost_vazduha;
-};
-Redovi dvodimenzionalnog niza predstavljaju različite meteorologe, a kolone različite dane.
-Omogućiti korisniku unos svih prognoza za sve meteorologe.
-Dodatno kreirati jednodimenzionalni dinamički niz čija će veličina biti uneseni broj dana u koji ćete omogućiti unos stvarnih izmjerenih vrijednosti za dane.
-Zatim napraviti funkciju koja će pronaći i ispisati index meteorologa čija je prognoza dnevnih temperatura bila najtačnija, odnosno koji je imao najmanju grešku u procjeni temperatura.
-Pomoć: suma svih razlika između prognozirane i stvarne temperature za jednog meteorologa predstavlja njegovu ukupnu grešku.
-(U ovom zadatku je zabranjeno indeksirati elemente u niza uglastim zagradama. Obavezno koristiti aritmetiku pokazivača.)
- */
 #include <iostream>
 using namespace  std;
 
@@ -83,14 +68,14 @@ int main()
     vremenska_prognoza** v = new vremenska_prognoza * [brMetorologa];
 	for (int i=0;i<brMetorologa;i++)
 	{
-        *(v + i) = new vremenska_prognoza[brDana];
+          *(v + i) = new vremenska_prognoza[brDana];
 	}
 
 	for (int i=0;i<brMetorologa;i++)
 	{
 		for (int j=0;j<brDana;j++)
 		{
-            (*(*(v + i) + j)).unosProgonoza();
+                   (*(*(v + i) + j)).unosProgonoza();
 		}
 	}
     cout << "----------------------------------------------------------------" << endl;
@@ -113,7 +98,7 @@ int main()
 
 	for (int i=0;i<brMetorologa;i++)
 	{
-        delete[] * (v + i);
+           delete[] * (v + i);
 	}
     delete[]v;
     v = nullptr;
@@ -154,7 +139,7 @@ int najtacnijiMetorolog(vremenska_prognoza** v1, vremenska_prognoza*v2, int brMe
 	{
 		for (int j=0;j<brDana;j++)
 		{
-            *(meteorolog + i) += abs(*(*(v1 + i) + j)->padavine - *(v2 + i)->padavine);
+                  *(meteorolog + i) += abs(*(*(v1 + i) + j)->padavine - *(v2 + i)->padavine);
 		}
 	}
     int tacno = 0;
@@ -162,7 +147,7 @@ int najtacnijiMetorolog(vremenska_prognoza** v1, vremenska_prognoza*v2, int brMe
 	{
 		if(*(meteorolog+i)<*(meteorolog+tacno))
 		{
-            tacno = i;
+                  tacno = i;
 		}
 	}
 
