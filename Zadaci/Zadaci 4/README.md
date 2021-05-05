@@ -73,7 +73,7 @@ Dodatno kreirati jednodimenzionalni dinamički niz čija će veličina biti unes
 Zatim napraviti funkciju koja će pronaći i ispisati index meteorologa čija je prognoza dnevnih temperatura bila najtačnija, 
 odnosno koji je imao najmanju grešku u procjeni temperatura. Pomoć: suma svih razlika između prognozirane i stvarne temperature za jednog meteorologa predstavlja njegovu ukupnu grešku.
 (U ovom zadatku je zabranjeno indeksirati elemente u niza uglastim zagradama. Obavezno koristiti aritmetiku pokazivača.)
-# [Zadatak 4 drugi nacin] () 
+# [Zadatak 4 drugi nacin] (https://github.com/Siocic/Programiranje-I/blob/main/Zadaci/Zadaci%204/Zad04v2.cpp) 
 # [Zadatak 5](https://github.com/Siocic/Programiranje-I/blob/main/Zadaci/Zadaci%204/Zad5.cpp)
 Kreirati dinamički dvodimenzionalni niz čiji su elementi objekti tipa košarkaš (košarkaš je struktura čija su obilježja data u nastavku). Omogućiti korisniku da unese dimenzije niza.
 ```
