@@ -1,14 +1,4 @@
-﻿/*
- Kreirati dvodimenzionalni dinamički niz čiji su elementi objekti tipa figura (figura je struktura čija su obilježja data u nastavku). Omogućiti korisniku da unese dimenzije niza, te omogućiti unos elemenata.
- struct figura
-{
-    int ID
-    char *nazivFigure;
-    float *visinaFigure;
-};
-Potrebno je napisati funkciju koja će računati prosječnu visinu svih figura koje se nalaze na crnim poljima ispod sporedne dijagonale.
-(Funkcija treba vratiti pokazivač na memorijsku lokaciju u kojoj je upisana ta vrijednost.)
- */
+
 #include <iostream>
 using namespace  std;
 
