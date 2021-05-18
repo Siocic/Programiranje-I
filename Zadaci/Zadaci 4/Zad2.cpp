@@ -107,7 +107,7 @@ int main()
             (*(*(v + i) + j)).dealokacijaVozila();
         }
     }
-    for (int i = 0; i < brVozila; i++)
+    for (int i = 0; i < brFirmi; i++)
     {
         delete[] * (v + i);
         *(v + i) = nullptr;
