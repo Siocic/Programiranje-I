@@ -72,7 +72,7 @@ Napisati program koji omogućava korisniku unos integer vrijednosti veće od 100
 Napisati funckiju koja će provjeriti da li je uneseni broj u isto vrijeme i prost i "palindrom", odnosno da li je isti broj i kada se obrnnu sve cifre.
 Po potrebi koristiti dodatne funkcije. Npr. brojevi 383, 727, 757, 787, 797, 919, 929 su u isto vrijeme i prosti brojevi i "palindromi".
 
-# [Zadatak 12] ()
+# [Zadatak 12] (https://github.com/Siocic/Programiranje-I/blob/main/Zadaci/Zadaci%202/Zad12.cpp)
 Omogućiti unos dva prirodna broja A i B (A>100000, B>50000).
 Napisati program koji će kreirati i ispisati broj C koji će se sastojati od cifara broja A u obrnutom redoslijedu ali bez cifara koje se pojavljuju u broju B.
 Obavezno koristiti bar jednu funkciju. Ispsati razliku brojeva A i C.
