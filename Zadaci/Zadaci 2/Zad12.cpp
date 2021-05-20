@@ -1,8 +1,4 @@
-﻿/*
- * Omogućiti unos dva prirodna broja A i B (A>100000, B>50000).
- * Napisati program koji će kreirati i ispisati broj C koji će se sastojati od cifara broja A u obrnutom redoslijedu ali bez cifara koje se pojavljuju u broju B.
- * Obavezno koristiti bar jednu funkciju. Ispsati razliku brojeva A i C.
- */
+
 #include <iostream>
 
 
