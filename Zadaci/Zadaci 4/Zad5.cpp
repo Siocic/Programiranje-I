@@ -153,9 +153,9 @@ int* razlikaIgraca(kosarkas** k, int brKosarkasa, int brKlubova)
     //trazimo najboljeg igraca u najboljem timu
     int najboljiKosarkas = *(*(k + 0) + indexKluba)->postignutiKosevi;//0 predstavlja red odnosno brKosarkasa, a indexKlub predstavlja najbolji klub iz kojeg trazimo kosarkasa
 
-    for (int i = 0; i < brKlubova; i++)
+    for (int i = 0; i < brKosarkasa; i++)
     {
-        for (int j = 0; j < brKosarkasa; j++)
+        for (int j = 0; j < brKlubova; j++)
         {
             if (*(*(k + i) + j)->postignutiKosevi > najboljiKosarkas)
             {
