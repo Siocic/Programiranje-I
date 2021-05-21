@@ -37,7 +37,7 @@ char odabir()
 }
 float rezultat(float x, int m)
 {
-	int rez = 0;
+	float rez = 0;
 	switch (odabir())
 	{
 	  case 's':
